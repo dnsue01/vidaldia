@@ -161,9 +161,7 @@ button{font:inherit;color:inherit}
 .escuela-banner .txt{position:relative;z-index:2;padding:clamp(1.75rem,4vw,3.5rem);max-width:36rem}
 .escuela-banner h2{font-size:clamp(1.9rem,3.6vw,3rem)}
 .escuela-banner p{margin-top:1rem;color:rgba(255,255,255,.88)}
-.rail-bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;margin:2.5rem 0 1.25rem}
-.rail-bar a.more{font-weight:600;color:var(--accent);text-decoration:none;display:inline-flex;gap:.5rem;align-items:center}
-.rail-bar a.more:hover{text-decoration:underline}
+.rail-bar{display:flex;align-items:center;justify-content:flex-end;gap:1rem;margin:2.5rem 0 1.25rem}
 .rail-ctl{display:flex;gap:.5rem}
 .rail-ctl button{width:2.75rem;height:2.75rem;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);cursor:pointer;display:grid;place-items:center;transition:border-color .2s,color .2s,transform .3s var(--ease)}
 .rail-ctl button:hover{border-color:var(--accent);color:var(--accent)}
@@ -171,11 +169,9 @@ button{font:inherit;color:inherit}
 .rail-ctl .ic{width:1.15em;height:1.15em}
 .rail-ctl .prev .ic{transform:scaleX(-1)}
 .rail{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:1rem;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
-.rail a{flex:0 0 min(19rem,80%);scroll-snap-align:start;display:flex;flex-direction:column;gap:.8rem;min-height:13rem;padding:1.6rem;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);text-decoration:none;transition:border-color .25s,transform .45s var(--ease)}
-.rail a:hover{border-color:var(--accent);transform:translateY(-3px)}
+.rail article{flex:0 0 min(19rem,80%);scroll-snap-align:start;display:flex;flex-direction:column;gap:.8rem;min-height:13rem;padding:1.6rem;border-radius:var(--r);background:var(--surface);border:1px solid var(--line)}
 .rail h3{font-size:1.3rem}
 .rail p{color:var(--muted);font-size:.98rem}
-.rail .go{margin-top:auto;display:inline-flex;align-items:center;gap:.4rem;font-weight:600;color:var(--accent);font-size:.95rem}
 
 /* FAQ */
 .faq{background:var(--surface);border-block:1px solid var(--line)}
